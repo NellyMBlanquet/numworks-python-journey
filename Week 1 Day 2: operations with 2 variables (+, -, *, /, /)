@@ -1,0 +1,44 @@
+"""
+File: Week 1 Day 2 - operations with 2 variables
+Purpose: Practice using two variables to calculate:
+         - addition (+)
+         - subtraction (-)
+         - multiplication (*)
+         - decimal division (/)
+         - integer division (//)
+         Document the difference between / and //
+         Calculate rectangle area
+Date: 2026-05-03
+"""
+# PROGRAM: operations with 2 variables
+
+# 1. Create two variables
+x = 20
+y = 6
+
+# 2. Calculate basic operations
+addition = x + y
+subtraction = x - y
+multiplication = x * y
+decimal_division = x / y   # decimal result
+integer_division = x // y   # integer result (rounds down)
+
+# 3. Show results
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Decimal division (/):", decimal_division)
+print("Integer division (//):", integer_division)
+
+# 4. DOCUMENTATION (this is what point 2 asks for)
+# Difference between / and //:
+# /  → decimal division, always gives a number with a decimal point (float)
+#      Example: 20 / 6 = 3.333333...
+# // → integer division, only gives the integer part, rounding down
+#      Example: 20 // 6 = 3
+
+# 5. Area of a rectangle (point 3)
+base = 20
+height = 35
+area = base * height
+print("Rectangle area (base=20, height=35):", area)
